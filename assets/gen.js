@@ -17,14 +17,13 @@ function getRandomImage() {
 
 getRandomImage ();
 
-document.getElementById("new-image-button").addEventListener("click",getRandomImage);
+document.getElementById("new-inspiration-button").addEventListener("click",getRandomImage);
 
 function getInspiration(){
-    fetch('https://api.goprogram.ai/inspiration')
+    fetch('https://api.adviceslip.com/advice')
         .then(Response => Response.json())
         .then(data => {
-            quoteElement.innerHTML = '"${data.inspiration}"';
-            authorElement.innerHTML = '- ${data.author}';
+            quoteElement.innerHTML = data.slip.advice;
             console.log(data)
         })
         .catch(error => {
@@ -34,4 +33,4 @@ function getInspiration(){
 
 getInspiration();
 
-document.getElementById("new-insoiration-button").addEventListener("click",getInspiration)
+document.getElementById("new-inspiration-button").addEventListener("click",getInspiration)
