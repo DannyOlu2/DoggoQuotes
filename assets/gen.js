@@ -17,7 +17,7 @@ function getRandomImage() {
 
 getRandomImage ();
 
-document.getElementById("new-image-button").addEventListener("click",getRandomImage);
+document.getElementById("new-inspiration-button").addEventListener("click",getRandomImage);
 
 function getInspiration(){
     fetch('https://api.adviceslip.com/advice')
