@@ -59,14 +59,14 @@ header {
   
   /* Like button style */
   
-  .like-button-box {
+  .like-btn-box {
     text-align: center;
     /* margin-top: 20px; */
   }
   
-  .like-button {
+  .like-btn {
     /* padding: 10px 20px; */
-    background-color: #e0e0e0;
+    background-color: white;
     color: black;
     font-size: 1rem;
     border-radius: 5px;
