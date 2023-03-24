@@ -37,7 +37,7 @@ If you would like to contribute to the Pup & Quote Generator, please feel free t
 
 # Authors
 - Daniel Olumilua ([@DannyOlu2](https://github.com/DannyOlu2))
-- Carol Wargo  ([@janesmith](https://github.com/janesmith))
+- Carol Wargo  ([@carolwargo](https://github.com/carolwargo))
 - Tanner Fink ([@Tannerfink2000](https://github.com/Tannerfink2000))
 - Micci Benner ([@Micci11](https://github.com/Micci11))
 
