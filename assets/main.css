@@ -1,77 +1,18 @@
-/* Overall style  */
-header {
-    text-align: center;
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-  }
-  
   body {
     font-family: Arial, sans-serif;
-    background-color: hsl(197, 100%, 50%);
+    background-color: rgb(249, 249, 243);
   }
-  
-  .elements {
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: rgb(46, 165, 255);
-    border-radius: 10px;
-  }
-  
-  /* Image style */
-  
-  .image-box {
+ 
+  #footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .image-box img {
-    width: 100%;
-    max-width: 500px;
-    border-radius: 5px;
-  }
-  
-  /* Quote style */
-  
-  .quote-box {
-    text-align: center;
-  }
-  
-  .quote {
-    font-size: 1.5rem;
-    font-style: italic;
-    margin-bottom: 20px;
-  }
-  
-  /* Button styl */
-  
-  #start-container {
-    text-align: center;
-  }
-  
-  .btn {
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: black;
-    font-size: 1rem;
-    border-radius: 5px;
-  }
-  
-  /* Like button style */
-  
-  .like-btn-box {
-    text-align: center;
-    /* margin-top: 20px; */
-  }
-  
-  /* #like-btn {
-    /* padding: 10px 20px; */
-    /* background-color: white;
-    color: black;
-    font-size: 1rem;
-    border-radius: 5px;
-  } */ 
-  
+    background-color: rgb(249, 249, 243);
+    color: rgb(192, 109, 127);
+    height: 800px;
+}
 /* Responsive style */
 
 @media (max-width: 600px) {
@@ -83,4 +24,3 @@ header {
       max-width: 100%;
     }
   }
-  
