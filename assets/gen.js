@@ -3,7 +3,7 @@ var quoteElement = document.getElementById("quote");
 var authorElement = document.getElementById("author");
 
 function getRandomImage() {
-    fetch('https://random.dog/woof.json')
+    fetch('https://random.dog/woof.json?filter=mp4,webm')
     .then(Response => Response.json())
     .then(data => {
         console.log(data);
@@ -38,11 +38,11 @@ document.getElementById("new-inspiration-button").addEventListener("click",getIn
 
 function saveData(){
     var allSaved = JSON.parse(localStorage.getItem("allSaved", allSaved))||[]
-    var imageUrl = localStorage.getItem('imageUrl');
-    var advice = localStorage.getItem('advice');
+    var imageUrl = img.src;
+    var advice = quoteElement.innerHTML;
     var newSaved = {
-        imageUrl: img.innerHTML,
-        advice: quoteElement.innerHTML
+        imageUrl: imageUrl,
+        advice: advice
     }
     allSaved.push(newSaved)
     console.log(imageUrl, advice);
