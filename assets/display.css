@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: wheat;
+  }
+
+.navbar {
+    overflow: hidden;
+    background-color: tan;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+  }
+  
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#footer {
+    text-align: right;
+    background-color: wheat;
+    color: rgb(192, 109, 127);
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+}

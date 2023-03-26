@@ -2,13 +2,17 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-   
     text-align: center;
-    background-color: rgb(249, 249, 243);
+    background-color: wheat;
     color: rgb(192, 109, 127);
     text-shadow: -1px -1px 0 #E9E5E5, 1px -1px 0 #D4D3D3, -1px 1px 0 #C2BABA, 1px 1px 0 #000;
     font-size: 30px;
 }
+
+body {
+    background-color:wheat;
+  }
+
  #section {
     display: flex;
     flex-direction: column;
@@ -16,7 +20,7 @@ header {
     justify-content: center;
     height: 400px;
     text-align: center;
-    background-color: rgb(249, 249, 243);
+    background-color: wheat;
     color: rgb(192, 109, 127);
     font-size: 25px;
 }
@@ -26,35 +30,14 @@ header {
 }
 
 #footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(249, 249, 243);
+    text-align: right;
+    background-color: wheat;
     color: rgb(192, 109, 127);
-    height: 600px;
+    position: fixed;
+    bottom: 0;
+    width: 90%;
 }
 
-  .save-data-button {
-    display: inline-block;
-    position: absolute;
-    text-align: center;
-    margin: auto;
-    margin-top: 30px;
-    padding: 8px 32px;
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    background-color: rgb(192, 109, 127);
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  .save-data-button:hover {
-    background-color: rgb(121, 230, 48);
-  }
 
 
 
