@@ -1,4 +1,4 @@
-# Pup & Quote Generator
+# Doggo Quote Generator
 This is a simple web app that uses the Random Dog API and the Advice Slip API to display a random dog image and a random advice message to the user.
 
 ## Table of Contents
