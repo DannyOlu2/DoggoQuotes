@@ -13,13 +13,14 @@ This is a simple web app that uses the Random Dog API and the Advice Slip API to
 
 
 # Getting Started
-To use the Pup & Quote Generator, simply navigate to the homepage and select which type of content you would like to generate. You can choose to generate pictures of dogs, inspirational quotes, or a combination of the two.
+To use the Doggo Quotes Generator, simply navigate to the homepage and select which type of content you would like to generate. You can choose to generate pictures of dogs, inspirational quotes, or a combination of the two.
 
 # Features
 - Random dog image: The app retrieves a random dog image from the Random Dog API and displays it to the user.
 - Random advice message: The app retrieves a random advice message from the Advice Slip API and displays it to the user.
 - Generate button: The user can click on a "Generate" button to fetch a new random dog image and a new random advice message.
 - Favorite button: The user can click on the favorite button in order to save their favorite images and quotes.
+- View Favorites button: The user can click on the view favorites button in order to view all of their favorite images and quotes.
 
 # Technologies
 The app is built with HTML, CSS, and JavaScript. It uses the fetch API to make HTTP requests to the Random Dog API and the Advice Slip API and retrieve data in JSON format. It also uses the DOM API to dynamically update the UI with the retrieved data.
@@ -33,7 +34,7 @@ I WANT to wake up to inspiration from a quote and a picture of my favorite anima
 SO THAT I can have a inspired & wonderful day
 
 # Contributing
-If you would like to contribute to the Pup & Quote Generator, please feel free to submit a pull request or open an issue on the project's GitHub page.
+If you would like to contribute to the Doggo Quotes Generator, please feel free to submit a pull request or open an issue on the project's GitHub page.
 
 # Authors
 - Daniel Olumilua ([@DannyOlu2](https://github.com/DannyOlu2))
